@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  width: 100%;
+}
+main > .row > header {
+  width: 100%;
+  height: 100px;
+}
+main > .row > header > .row {
+  height: 100%;
+}
+main > .row > header > .row > div {
+  width: 100%;
+}
+main > .row > header > .row > div:first-of-type {
+  height: 35%;
+  background-color: rgb(108, 108, 235);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: beige;
+  text-transform: capitalize;
+}
+main > .row > header > .row > div:last-of-type {
+  height: 65%;
+  background-color: #e7ecee;
+  padding: 0 50px;
+}
+main > .row > header > .row > div:last-of-type > .row {
+  height: 100%;
+}
+main > .row > header > .row > div:last-of-type > .row > * {
+  height: 100%;
+}
+main > .row > header > .row > div:last-of-type > .row > figure {
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+main > .row > header > .row > div:last-of-type > .row > figure > img {
+  height: 90%;
+}
+main > .row > header > .row > div:last-of-type > .row > nav {
+  width: 60%;
+}
+main > .row > header > .row > div:last-of-type > .row > nav > ul {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+main > .row > header > .row > div:last-of-type > .row > nav > ul > li {
+  list-style-type: none;
+}
+main > .row > header > .row > div:last-of-type > .row > nav > ul > li > a {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: rgb(133, 133, 118);
+  padding: 15px;
+}
+main > .row > header > .row > div:last-of-type > .row > nav > ul > li > a:hover {
+  background-color: rgba(228, 131, 131, 0.445);
+}
+main > .row > header > .row > div:last-of-type > .row > div {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
+}
+main > .row > .slider {
+  width: 100%;
+  height: 400px;
+  background-color: #6df1fa;
+}
+main > .row > .slider > .row {
+  height: 100%;
+}
+main > .row > .slider > .row > * {
+  height: 100%;
+}
+main > .row > .slider > .row > div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .row > .slider > .row > div > h1 {
+  width: 80%;
+  font-size: 40px;
+  color: rgb(85, 81, 81);
+  text-transform: capitalize;
+  background-color: rgba(248, 243, 235, 0.349);
+  padding: 20px;
+}
+main > .row > .slider > .row > figure {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+main > .row > .slider > .row > figure > img {
+  width: 58%;
+  height: 100%;
+}
+main > .row > .row {
+  width: 100%;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+}
+main > .row > .row > * {
+  width: 300px;
+  height: 350px;
+  background-color: rgb(145, 165, 231);
+  border-radius: 3px;
+  overflow: hidden;
+}
+main > .row > .row > .row {
+  margin: -120px 10px 0 10px;
+}
+main > .row > .row > .row > figure {
+  width: 100%;
+  height: 80%;
+  padding: 7px 7px;
+}
+main > .row > .row > .row > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 3px;
+}
+main > .row > .row > .row > div {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .row > .row > .row > div > h1 {
+  color: rgb(252, 248, 248);
+  font-size: 20px;
+  text-transform: capitalize;
+}
+main > .row > .row2 {
+  width: 100%;
+  height: 400px;
+  background-color: rgba(213, 227, 245, 0.603);
+  margin: 34px;
+}
+main > .row > .row2 > .row {
+  height: 100%;
+}
+main > .row > .row2 > .row > * {
+  width: 50%;
+  height: 100%;
+}
+main > .row > .row2 > .row > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .row > .row2 > .row > div > p {
+  width: 400px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+main > .row > .row2 > .row > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+main > .row > .row2 > .row > figure > img {
+  width: 60%;
+  height: 90%;
+  border-radius: 50%;
+}
+main > .row > footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(95, 95, 219);
+}
+main > .row > footer > .row {
+  height: 100%;
+  align-items: center;
+}
+main > .row > footer > .row > h1 {
+  font-size: 10px;
+  color: white;
+  margin-left: 10px;
+}/*# sourceMappingURL=master.css.map */
